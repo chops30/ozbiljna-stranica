@@ -1,0 +1,111 @@
+/* font */
+@font-face {
+    font-family: 'PatrickFont';
+    src: url('patricklihtenvalner.ttf') format('truetype');
+}
+.moj-font {
+    font-family: 'PatrickFont', cursive;
+    font-size: 4em;
+    margin: 10px 0;
+}
+
+/* sve   */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    background: url('Slike/pozadina.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+	 min-height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;    
+    ;
+}
+
+/*  navl ist  */
+nav {
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration:none;
+    color: white;
+    background: #2c3e50;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+nav a:hover {
+    background: #34778F;
+}
+
+/* bbox */
+main {
+    max-width: 950px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* hedinzi */
+h1, h2, h3 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+
+/* heading box */
+section h2, section h3 {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+	width: 80%;          
+    max-width: 600px;      
+    margin: 20px auto;    
+}
+
+/* centriranje dr ante */
+.flex-container  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 30px;
+    margin: 5px auto;
+    width: 100%;
+}
+
+img, video {
+    display: block;
+    margin: 0 auto;           
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+figcaption {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
